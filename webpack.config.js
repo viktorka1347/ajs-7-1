@@ -1,9 +1,7 @@
-/* eslint-disable no-undef */
 const path = require('path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
-// eslint-disable-next-line no-undef
 module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
